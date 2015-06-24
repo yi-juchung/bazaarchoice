@@ -9,4 +9,7 @@ class MainController {
     def search() {
 
     }
+
+    def loading() {
+    }
 }
