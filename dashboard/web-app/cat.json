@@ -8,7 +8,8 @@
             "overallRatings": 3.38,
             "personalizedRatings": 4.7,
             "score": 1,
-            "opt": 1
+            "opt": 1,
+            "coupon": "icon-coupon-code.jpg"
         },
         {
             "name": "The Animal House",
@@ -18,7 +19,8 @@
             "overallRatings": 4.8,
             "personalizedRatings": 3.23,
             "score": 2,
-            "opt": 1
+            "opt": 1,
+            "coupon": "icon-coupon-code-2.jpg"
         },
         {
             "name": "Jeffrey Natural Pet Foods",
@@ -29,6 +31,26 @@
             "personalizedRatings": 3.5,
             "score": 3,
             "opt": 0
+        },
+        {
+            "name": "Bella Bean Couture",
+            "addr": "120 Hickory St, San Francisco, CA 94102",
+            "lat": 37.775771,
+            "lng": -122.421506,
+            "overallRatings": 3.7,
+            "personalizedRatings": 3.6,
+            "score": 4,
+            "opt": 0
+        },
+        {
+            "name": "Petco Animal Supplies",
+            "addr": "2300 16th St, San Francisco, CA 94103",
+            "lat": 37.767010,
+            "lng": -122.409420,
+            "overallRatings": 4.0,
+            "personalizedRatings": 3.1,
+            "score": 5,
+            "opt": 1
         }
     ]
 }

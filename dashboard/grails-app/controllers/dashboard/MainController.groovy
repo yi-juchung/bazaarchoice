@@ -1,5 +1,7 @@
 package dashboard
 
+import grails.converters.JSON
+
 class MainController {
 
     def index() {
@@ -11,8 +13,9 @@ class MainController {
     }
 
     def getKeyword() {
-        def relatedWords = [ 'food', 'vet', 'canned','fish']
-        def model = ["relatedWords" : relatedWords]
+        def keywords = JSON.parse(grailsApplication.mainContext.getResource("all.json").file.text)
+
+        def model = ["relatedWords" : keywords.Results]
 
         render(view:"keywordView", model: model)
     }
@@ -21,7 +24,15 @@ class MainController {
     }
 
     def map() {
-        log.info(params)
-        render(template: 'map')
+        def model = [:]
+        model["selected"] = []
+
+        params.each {
+            if (it.value.equals("checked")) {
+                model["selected"].add(it.key)
+            }
+        }
+
+        render(template: 'map', model: model)
     }
 }
