@@ -19,7 +19,7 @@
                     <input type="checkbox" name=${item} value="checked"
                            style="margin-left:auto; margin-right:auto;">
                 </td>
-                <td>${item}</td>
+                <td><h1>${item}</h1></td>
             </tr>
 
         </g:each>

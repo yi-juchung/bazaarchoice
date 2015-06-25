@@ -10,11 +10,11 @@
     <title>Bazaarchoice Dashboard</title>
 </head>
 <body>
-<fieldset class="form">
+<fieldset class="form" style="width: 300px;">
     <g:form controller="main" action="getKeyword" method="GET">
         <div class="fieldcontain">
-            <label for="query">Search for word:</label>
-            <g:textField name="query" value="${params.query}"/>
+            <label for="query"><h1>Search for word:</h1></label>
+            <g:textField size="80px" name="query" value="${params.query}"/>
         </div>
     </g:form>
 </fieldset>

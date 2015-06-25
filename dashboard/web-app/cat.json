@@ -20,7 +20,8 @@
             "personalizedRatings": 3.23,
             "score": 2,
             "opt": 1,
-            "coupon": "icon-coupon-code-2.jpg"
+            "apay": "apay.png",
+            "coupon": "icon-coupon-code-2.png"
         },
         {
             "name": "Jeffrey Natural Pet Foods",
@@ -50,6 +51,7 @@
             "overallRatings": 4.0,
             "personalizedRatings": 3.1,
             "score": 5,
+            "apay": "apay.png",
             "opt": 1
         }
     ]
