@@ -22,6 +22,7 @@
                 var tar = document.getElementById("target");
                 var img = tar.firstElementChild;
                 img.setAttribute("src","images/search.png");
+                img.setAttribute("style","width: 225px; height: 225px;");
                 tar.setAttribute("onclick","location.href='${g.createLink(controller: 'main', action: 'search')}';")
             }, 3000);
             return false;

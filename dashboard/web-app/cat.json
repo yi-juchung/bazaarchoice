@@ -1,0 +1,34 @@
+{
+    "Results": [
+        {
+            "name": "Pet Food Express",
+            "addr": "1975 Market St,San Francisco, CA 94103",
+            "lat": 37.7692339,
+            "lng": -122.4261944,
+            "overallRatings": 3.38,
+            "personalizedRatings": 4.7,
+            "score": 1,
+            "opt": 1
+        },
+        {
+            "name": "The Animal House",
+            "addr": "157 Fillmore St,San Francisco, CA 94117",
+            "lat": 37.7710452,
+            "lng": -122.4304231,
+            "overallRatings": 4.8,
+            "personalizedRatings": 3.23,
+            "score": 2,
+            "opt": 1
+        },
+        {
+            "name": "Jeffrey Natural Pet Foods",
+            "addr": "284 Noe St, San Francisco, CA 94114",
+            "lat": 37.7645598,
+            "lng": -122.4333995,
+            "overallRatings": 4.2,
+            "personalizedRatings": 3.5,
+            "score": 3,
+            "opt": 0
+        }
+    ]
+}
